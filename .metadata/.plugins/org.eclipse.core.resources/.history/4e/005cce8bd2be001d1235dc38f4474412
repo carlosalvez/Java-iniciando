@@ -1,0 +1,15 @@
+
+public class TesteCondicionais2 {
+	public static void main(String[] args) {
+		
+		int idade = 16;
+		int quantidadedePessoas = 3;
+		
+		if (idade >= 18 || quantidadedePessoas >= 2){
+		System.out.println("Seja bem vindo");
+		}else {
+			System.out.println("Infelizmente você não pode entrar");
+		}
+	}
+
+}

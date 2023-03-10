@@ -1,0 +1,25 @@
+
+public class TesteEscopo {
+	
+	public static void main(String[] args) {
+		System.out.println("Testando condicionais");
+		
+		int idade = 20;
+		int quantidadedePessoas = 3;
+		//boolean acompanhado = true;
+		
+		if (quantidadedePessoas >= 2) {
+			boolean acompanhado = true;
+		}else {
+			boolean acompanhado = false;
+		}
+		
+		if (idade >= 18 || acompanhado){
+			
+			System.out.println("Seja bem vindo");
+		}else {
+			System.out.println("infelizmente você não pode entrar");
+		}
+	}
+
+}
